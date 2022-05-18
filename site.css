@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+body {  
+    font-family: 'Times New Roman', Times, serif;
+}
+:root {
+    --container-full-width:100%;
+    --container-width: 1150px;
+}
+.containerr{
+    width:var(--container-full-width);
+    background-image: url("images/Screenshot\ 2022-05-18\ 140025.jpg");
+
+}
+.containerrr{
+    width:var(--container-full-width);
+    padding-top: 15px;
+   
+    
+    
+}
+.container {
+    width: var(--container-width);
+    margin:auto;
+    
+}
+.header{
+    display: flex;
+
+    
+
+}
+
+.box{
+    width:var(--container-full-width);
+    background-color: #F7C03F;
+}
+.header ul li{
+    list-style: none;
+
+}
+.header li {
+    display: inline-table;        
+}
+.header ul{
+    display: flex;
+    width: 900px;
+    height: 100px;
+    background-color: #F7C03F;;
+    align-items: center;
+    text-align: center;
+}
+
+.header li+li {
+    margin-left: 20px;
+}
+.header ul li a{
+    color: black;
+    font-size: 1.5em;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.imagesbody{
+    width: var(--container-full-width);
+    height: 450px;
+    background-image: url("images/background.jpg");
+    background-size: contain;
+
+}
+.center{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    padding-top: 75px;
+    padding-left: 130px;
+    top:55px;
+}
+.boxthongtin-all{
+    display: flex;
+}
+.boxthongtin-all ul li{
+    list-style: none;
+
+}
+.boxthongtin-all ul li a{
+    text-decoration: none;
+}
+.boxthongtin-all{
+    column-gap: 80px;
+    padding-top: 20px;
+    padding-left: 32px;
+}
+.tieude ul li a{
+    font-size: 1.4em;
+    font-weight: 900;
+    color: black;
+}
+.noidung ul li a{
+    color: black;
+    font-size: 1.1em;
+}
+.ngay ul li a{
+    color: black;
+}
+.thongtin{
+    padding-top: 10px;;
+}
+
+.boxthongtin{
+    height: 380px;
+    width: 310px;
+
+}
+.end{
+    width: 100%;
+    height: 100px;
+    background-image: url("images/Screenshot\ 2022-05-18\ 140025.jpg");
+    color: white;
+    text-align: center; 
+    padding-top: 25px;
+    line-height: 25px;
+}
+.bottom{
+    background-image: url("images/nen.jpg");
+    background-size: contain;
+    background-size: cover;
+}
